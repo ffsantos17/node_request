@@ -14,7 +14,7 @@ var teste;
 
 conn.connect(function(err) {
 if (err) {
-    res.end(err);
+    console.log(err);
     return;
 }
 teste = 'conectado';
