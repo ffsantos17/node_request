@@ -17,10 +17,10 @@ if (err) {
     console.log(err);
     return;
 }
-teste = 'conectado';
+run();
 }); 
 
-(async () => {
+async function run() {
     const uuidRequest = uuid.v4();
 
     try {
@@ -64,7 +64,7 @@ teste = 'conectado';
         await inserirLogRotina(uuidRequest, error);
         console.log(error);
     }
-})();
+};
 
 async function obterList(uuid){
     try {
