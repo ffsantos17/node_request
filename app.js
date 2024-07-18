@@ -4,10 +4,10 @@ const uuid = require('uuid');
 const cheerio = require('cheerio');
 
 var conn = mysql.createConnection({
-  host: 'localhost', // Replace with your host name
-  user: 'root', // Replace with your database username
-  password: '', // Replace with your database password
-  database: 'tickets' // // Replace with your database Name
+host: 'server125.web-hosting.com', // Replace with your host name
+user: 'viarkpsn_user_tickets_info_api', // Replace with your database username
+password: 'UserP4sswordAP1', // Replace with your database password
+database: 'viarkpsn_tickets_info' // // Replace with your database Name
 });
 
 var teste;
