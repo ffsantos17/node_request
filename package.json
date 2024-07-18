@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.0",
+    "uuid": "^10.0.0"
+  }
+}
